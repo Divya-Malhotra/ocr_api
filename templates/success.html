@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>success</title>
+</head>
+<body>
+<p>File uploaded successfully</p>
+<p>File Name: {{name}}
+
+</p>
+<form action="button">
+    <img src="{{ url_for('static', filename=name) }}" name="bill_image" id = "bill_image">
+    <button type="submit" id = "submit_img">Submit</button>
+<form>
+</body>
+</html>
